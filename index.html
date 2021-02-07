@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    </head>
+
+<body>
+<h1 id="title">XBOX</h1>
+<p id="description">PRE-ORDER YOUR NEXT GEN XBOX HERE</p>
+
+<form id="survey-form">
+
+    <label id="name-label" for="name">Full Name:</label>
+    <input type="text" id="name" placeholder="Your name.." required>
+    <br>
+
+    <label id="email-label" for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Your Email Address.." required>
+    <br>
+
+    <label id="number-label" for="number">Contact Number:</label>
+    <input type="number" id="number" placeholder="Your Contact Number.." min="07000000000" max="0799999999">
+    <br>
+
+    <label for="xbox-type">Choose the Xbox:</label>
+    <select name="xbox-type" id="dropdown">
+        <option value="xbox series x">Xbox Series X</option>
+        <option value="xbox series s">Xbox Series S</option>
+    </select>
+    <br>
+
+    <label name="gamepass">Select Gamepass subscription?:</label>
+    <br>
+    <input type="radio" value="addgamepass" name="gamepass">
+    <label for="addgamepass">12 month Gamepass subscription</label>
+    <br>
+    <input type="radio" value="nogamepass" name="gamepass">
+    <label for="nogamepass">No Gamepass</label>
+    <br>
+
+    <label name="games">Add games into the bundle?:</label>
+    <br>
+    <input type="checkbox" value="cod" name="games">
+    <label for="cod">Call of Duty: Cold War</label>
+    <br>
+    <input type="checkbox" value="fifa" name="games">
+    <label for="fifa">FIFA 21</label>
+
+    <p>Any suggestions on how to improve this form?</p>
+    <textarea name="message" rows="4" cols="40"></textarea>
+    <br>
+
+    <button type="submit" id="submit"><strong>SUBMIT</strong></button>
+    
+
+
+
+
+
+
+</form>
+    
+</body>
+</html>

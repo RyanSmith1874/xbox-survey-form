@@ -1,0 +1,45 @@
+body {
+    background-color: #201F24;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: 500px;
+    line-height: 2;
+}
+
+#survey-form {
+    background-color: #9bf00b;
+    padding: 11px;
+    border-radius: 8px;
+    border: solid 1px rgb(63, 63, 63);
+    display: block;
+    margin-bottom: 300px;
+}
+
+h1 {
+    color:#9bf00b;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    margin-bottom: -15px;
+    margin-top: -10px;
+}
+
+#description {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#submit {
+    color: white;
+    background-color:rgb(51, 180, 255);
+    border-color: #43eefa; 
+    border-radius: 50px;
+    width: 480px;
+
+}
+#submit:hover {
+    background-color: rgb(173, 243, 255);
+}
+
